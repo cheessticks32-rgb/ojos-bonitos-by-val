@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ojos Bonitos by Valerie</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: linear-gradient(90deg, #ff69b4, #a64dff);
+  color: white;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(135deg, #ffe6f2, #ead6ff);
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.btn {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* SERVICES */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 230px;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.price {
+  font-size: 22px;
+  color: #a64dff;
+  font-weight: bold;
+}
+
+/* BOOKING */
+.booking {
+  background: #f9f2ff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.calendar button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+}
+
+.calendar button:hover {
+  background: #ff69b4;
+  color: white;
+}
+
+/* CONTACT */
+.contact {
+  background: linear-gradient(90deg, #ff69b4, #a64dff);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact a {
+  color: white;
+  display: block;
+  margin: 8px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Ojos Bonitos</div>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#book">Book</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Luxury Lash Extensions</h1>
+  <p>Ojos Bonitos by Valerie • Compton, California</p>
+
+  <a href="tel:+13238496124"><button class="btn">Call Now</button></a>
+  <a href="sms:+13238496124"><button class="btn">Text to Book</button></a>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <h2>Services & Pricing</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Package 1</h3>
+      <p>Classic Natural Set</p>
+      <div class="price">$50</div>
+    </div>
+
+    <div class="card">
+      <h3>Package 2</h3>
+      <p>Hybrid Soft Glam</p>
+      <div class="price">$60</div>
+    </div>
+
+    <div class="card">
+      <h3>Package 3</h3>
+      <p>Volume Full Glam</p>
+      <div class="price">$80</div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="book">
+  <h2>Book an Appointment</h2>
+  <p>Select an available time:</p>
+
+  <div class="calendar">
+    <button>Mon 10 AM</button>
+    <button>Mon 1 PM</button>
+    <button>Tue 11 AM</button>
+    <button>Tue 3 PM</button>
+    <button>Wed 12 PM</button>
+    <button>Thu 2 PM</button>
+  </div>
+
+  <p style="margin-top:20px;">
+    💳 Deposit required to confirm booking (message for details)
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+
+  <a href="tel:+13238496124">📞 (323) 849-6124</a>
+  <a href="https://instagram.com/ojosbonitosbyvalerie" target="_blank">
+    📸 @ojosbonitosbyvalerie
+  </a>
+
+  <p>📍 Compton, California</p>
+</section>
+
+<footer>
+  © 2026 Ojos Bonitos by Valerie
+</footer>
+
+</body>
+</html>
